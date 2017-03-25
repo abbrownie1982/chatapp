@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Coder Chat</title>
+  <title>Web Developer Chat</title>
   <%= csrf_meta_tags %>
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,9 +9,9 @@
 </head>
 
 <body>
-
-<nav class="navbar navbar-dark bg-inverse">
-  <%= link_to 'Coder Chat', root_path, class: 'navbar-brand' %>
+  
+<nav class="navbar navbar">
+  <%= link_to 'Web Developer Chat', root_path, class: 'navbar-brand' %>
 
   <% if user_signed_in? %>
     <ul class="nav navbar-nav pull-xs-right">

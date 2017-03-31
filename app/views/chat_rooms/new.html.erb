@@ -1,5 +1,9 @@
 <h1>Add chat room</h1>
 
+  <%= render 'form' %>
+ 
+  <%= link_to 'Back', chat_rooms_path %>
+
 <%= form_for @chat_room do |f| %>
   <div class="form-group">
     <%= f.label :title %>
